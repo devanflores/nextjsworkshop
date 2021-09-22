@@ -49,12 +49,13 @@ JSX tip: when you’re passing a string (text) value to a prop, you can use quot
 
 So far we’ve just been looking at React. [Next.js](https://nextjs.org) is a framework built to make building React-based web apps way easier. It handles setting up multiple pages, starting a server, and a bunch of super complex setup in the background. [A whole bunch](https://nextjs.org/showcase/) of major companies use it—it even powers parts of GitHub.
 
-You’ve been reading long enough; let’s open up your development environment. Get started with a super simple template on [Glitch](https://glitch.com): go to [https://glitch.com/~hackclub-next-starter](https://glitch.com/~hackclub-next-starter), click “Remix” & you can get started. Click “Show” to see the live website (it’ll take a moment to get running the first time).
+You’ve been reading long enough; let’s open up your development environment. Get started with a super simple template from next.js. Open VS Code and a new terminal and run the following code:
+npm init next-app my-next-app && cd my-next-app
 
 Looking around the project, there are two important files:
 
 - `pages/index.js`. To make a page on your site with Next.js, instead of an `index.html` file, we’ll have a `pages` folder and put `index.js` inside of it. Want an /about page? Add `about.js`.
-- `package.json`. In a JavaScript-based project, we set up this file to define dependencies known as “packages”—bundles of code from other developers we need for our project to run. You’ll see we’re requiring `next`, `react`, & `react-dom` (that last one’s the “adapter” to run React on the web). Glitch handles automatically installing the dependencies and running the app for us.
+- `package.json`. In a JavaScript-based project, we set up this file to define dependencies known as “packages”—bundles of code from other developers we need for our project to run. You’ll see we’re requiring `next`, `react`, & `react-dom` (that last one’s the “adapter” to run React on the web). 
 
 At its most basic, a page with Next.js (so a file like `pages/index.js`) looks like this. What gets rendered on the page goes inside the “default export” of the file.
 
