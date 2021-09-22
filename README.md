@@ -1,8 +1,3 @@
----
-name: Starting with Next.js
-description: Intro to React & Next.js with a shopping list website
-author: '@lachlanjc'
----
 
 # Welcome to React with Next.js
 
