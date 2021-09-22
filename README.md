@@ -294,7 +294,9 @@ Open up your app: the homepage has a magenta heading, but critically, the headin
 ```
 
 Go crazy—try changing the fonts, colors, & whatever else!
+## Deployment
+Once done building your website, commit your changes and push to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will prompt you to connect a repo and will give you a hosted link. Vercel automatically updates whenver your update the github repo.
 
 ## Conclusion
 
-Over the course of this workshop, you went from not knowing what JSX was to writing a two-page, interactive web app with it. Great work! This is just a starting point—you can keep adding to this app, but you can also check out the [Next.js Dashboard](/nextjs_dashboard) workshop to continue learning.
+Over the course of this workshop, you went from not knowing what JSX was to deploying a two-page, interactive web app with it. Great work! This is just a starting point—you can keep adding to this app, but you can also follow countless other tutorials to use powerful plugins and build high quality prototypes incredibly fast.
