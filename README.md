@@ -3,7 +3,15 @@
 
 Hi there! This workshop is an introduction to [React.js](https://reactjs.org) using [Next.js](https://nextjs.org). It assumes you have some familiarity with HTML and JavaScript, as well as programming functions like functions, objects, arrays, and classes, but you should be able to follow along regardless. If you're having trouble, feel free to ask in the [Hack Club Slack](https://hackclub.com/community)!
 
-A quick note: we’re using some features from ES6, a recent version of JavaScript. In this tutorial, we’re using [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) and [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const), among other features. If you’re more familiar with older versions of JavaScript, you might find the [Babel REPL](https://babeljs.io/repl/#?presets=react&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA) useful to see what ES6 code compiles to.
+# Requirements
+
+This workshop requires the following dependencies:
+
+Visual Studio Code
+npm https://nodejs.org/en/
+Yarn https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
+A github 
+
 
 ## Intro to React
 
@@ -295,8 +303,9 @@ Open up your app: the homepage has a magenta heading, but critically, the headin
 ```
 
 Go crazy—try changing the fonts, colors, & whatever else!
+
 ## Deployment
-Once done building your website, commit your changes and push to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will prompt you to connect a repo and will give you a hosted link. Vercel automatically updates whenever your update the github repo.
+Once done building your website, commit your changes and push to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will prompt you to connect a repo. You will give you a hosted link that automatically updates whenever you update the github repo!
 
 ## Conclusion
 
