@@ -295,7 +295,7 @@ Open up your app: the homepage has a magenta heading, but critically, the headin
 
 Go crazy—try changing the fonts, colors, & whatever else!
 ## Deployment
-Once done building your website, commit your changes and push to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will prompt you to connect a repo and will give you a hosted link. Vercel automatically updates whenver your update the github repo.
+Once done building your website, commit your changes and push to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will prompt you to connect a repo and will give you a hosted link. Vercel automatically updates whenever your update the github repo.
 
 ## Conclusion
 
