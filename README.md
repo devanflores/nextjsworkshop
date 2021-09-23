@@ -49,7 +49,7 @@ Now you can use it like this:
 JSX tip: when you’re passing a string (text) value to a prop, you can use quotes, just like in HTML, but if you’re passing JavaScript, you use curly braces. If articles had multiple authors, we’d pass an array:
 
 ```js
-<Article title="Hello BIGRED//HACKS!" author={['@lachlanjc', '@zachlatta']} />
+<Article title="Hello BIGRED//HACKS!" author={['@devanflores', '@devanflores']} />
 ```
 
 [(Want to read more about JSX?)](https://reactjs.org/docs/introducing-jsx.html)
