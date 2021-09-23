@@ -1,7 +1,8 @@
-
 # Welcome to React with Next.js
 
-Hi there! This workshop is an introduction to [React.js](https://reactjs.org) using [Next.js](https://nextjs.org). It assumes you have some familiarity with HTML and JavaScript, as well as programming functions like functions, objects, arrays, and classes, but you should be able to follow along regardless. If you're having trouble, feel free to ask in the [Hack Club Slack](https://hackclub.com/community)!
+Hi there! This workshop is an introduction to [React.js](https://reactjs.org) using [Next.js](https://nextjs.org). It assumes you have some familiarity with HTML and JavaScript, as well as programming functions like functions, objects, arrays, and classes, but you should be able to follow along regardless. If you're having trouble, feel free to ask in the [Big Red Hacks Discord or in person]!
+
+Source adapted from a Hack Club tutorial.
 
 # Requirements
 
@@ -10,7 +11,7 @@ This workshop requires the following dependencies:
 Visual Studio Code
 npm https://nodejs.org/en/
 Yarn https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable
-A github 
+A github account
 
 
 ## Intro to React
@@ -57,11 +58,14 @@ JSX tip: when you’re passing a string (text) value to a prop, you can use quot
 
 So far we’ve just been looking at React. [Next.js](https://nextjs.org) is a framework built to make building React-based web apps way easier. It handles setting up multiple pages, starting a server, and a bunch of super complex setup in the background. [A whole bunch](https://nextjs.org/showcase/) of major companies use it—it even powers parts of GitHub.
 
-You’ve been reading long enough; let’s open up your development environment. Get started with a super simple template from next.js. Open VS Code and a new terminal and run the following code:
-npm init next-app my-next-app && cd my-next-app
+You’ve been reading long enough; let’s open up your development environment. Get started with a super simple template from next.js. Open command line or terminal and enter the following line from the folder you want your project to be in. Feel free to change "my-next-app" to any project name you want.
+```npm init next-app my-next-app```
 
-Looking around the project, there are two important files:
+Next open the project in Vscode.
 
+Looking around the project, there are three important files:
+
+- `pages/_app.js`. This is a router file Next.js uses to render each page. Next.js uses the App component to initialize pages.
 - `pages/index.js`. To make a page on your site with Next.js, instead of an `index.html` file, we’ll have a `pages` folder and put `index.js` inside of it. Want an /about page? Add `about.js`.
 - `package.json`. In a JavaScript-based project, we set up this file to define dependencies known as “packages”—bundles of code from other developers we need for our project to run. You’ll see we’re requiring `next`, `react`, & `react-dom` (that last one’s the “adapter” to run React on the web). 
 
@@ -263,6 +267,9 @@ This is a little more complex, so let’s break it down:
 
 One thing about React state is that it’s not “persistent”—the list won’t be saved if you come back another day—but there a bunch of ways to handle data storage later on.
 
+## Deployment
+Once done building your website, initialize, commit and push your directory to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will then prompt you to connect a repo. After you connect your github repo, Vercel will give you a hosted link that automatically updates whenever you update the github repo! And there you have it, a running next.js website that's live on the web!
+
 ## Bonus: styling!
 
 When you’re using CSS, every style you add applies to your whole website. This is handy when you’re getting started, but if you imagine working at Facebook, if one person makes the buttons styled a little differently, the entire website updates. With thousands of people working together, there’s no way they can all keep track of changes like that.
@@ -303,9 +310,6 @@ Open up your app: the homepage has a magenta heading, but critically, the headin
 ```
 
 Go crazy—try changing the fonts, colors, & whatever else!
-
-## Deployment
-Once done building your website, commit your changes and push to a github repository. To deploy to a website, login to [Vercel](https://vercel.com/login) with your github account. Vercel will prompt you to connect a repo. You will give you a hosted link that automatically updates whenever you update the github repo!
 
 ## Conclusion
 
