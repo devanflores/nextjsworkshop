@@ -58,9 +58,9 @@ JSX tip: when you’re passing a string (text) value to a prop, you can use quot
 
 So far we’ve just been looking at React. [Next.js](https://nextjs.org) is a framework built to make building React-based web apps way easier. It handles setting up multiple pages, starting a server, and a bunch of super complex setup in the background. [A whole bunch](https://nextjs.org/showcase/) of major companies use it—it even powers parts of GitHub.
 
-You’ve been reading long enough; let’s open up your development environment. Get started with a super simple template from next.js. Open command line or terminal and enter the following line from the folder you want your project to be in. Feel free to change "my-next-app" to any project name you want.
+You’ve been reading long enough; let’s open up your development environment. Get started with a super simple template from next.js. Open command line or terminal and enter the following line from the folder you want your project to be in. 
 
-```npm init next-app my-next-app```
+```npm init next-app my-next-app``` (Feel free to change "my-next-app" to any project name you want)
 
 Next open the project in Vscode.
 
