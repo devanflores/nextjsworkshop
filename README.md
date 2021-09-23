@@ -9,8 +9,8 @@ Source adapted from a Hack Club tutorial.
 This workshop requires the following dependencies:
 
 - **Visual Studio Code**
-- **[npm] https://nodejs.org/en/**
-- **[Yarn] https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable**
+- **[npm](https://nodejs.org/en/)**
+- **[Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**
 - **Access to github
 
 
