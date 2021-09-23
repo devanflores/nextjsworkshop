@@ -10,7 +10,7 @@ This workshop requires the following dependencies:
 
 - **Visual Studio Code**
 - **[npm](https://nodejs.org/en/)**
-- **[Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**
+- **[Yarn](https://classic.yarnpkg.com/lang/en/docs/install)**
 - **Access to github**
 
 
@@ -41,7 +41,7 @@ const Article = ({ title, author, preview }) => (
 Now you can use it like this:
 
 ```js
-<Article title="Hello Hack Club!" author="@lachlanjc" />
+<Article title="Hello BIGRED//HACKS!" author="@devanflores" />
 ```
 
 (Thinking ahead—instead of just using components one-at-a-time like this, imagine downloading a list of articles, then rendering this Article component for each one. Well, that’s how news websites work!)
@@ -49,7 +49,7 @@ Now you can use it like this:
 JSX tip: when you’re passing a string (text) value to a prop, you can use quotes, just like in HTML, but if you’re passing JavaScript, you use curly braces. If articles had multiple authors, we’d pass an array:
 
 ```js
-<Article title="Hello Hack Club!" author={['@lachlanjc', '@zachlatta']} />
+<Article title="Hello BIGRED//HACKS!" author={['@lachlanjc', '@zachlatta']} />
 ```
 
 [(Want to read more about JSX?)](https://reactjs.org/docs/introducing-jsx.html)
@@ -91,8 +91,8 @@ const Article = ({ title, author, preview }) => (
 export default () => (
   <main>
     <h1>Articles</h1>
-    <Article title="Hello Hack Club!" author="@zachlatta" />
-    <Article title="Workshops are cool" author="@lachlanjc" />
+    <Article title="Hello BIGRED//HACKS!" author="@devanflores" />
+    <Article title="Workshops are cool" author="@devanflores" />
   </main>
 )
 ```
@@ -118,8 +118,8 @@ const Article = ({ title, author, preview }) => (
 export default () => (
   <main>
     <h1>Articles</h1>
-    <Article title="Hello Hack Club!" author="@zachlatta" />
-    <Article title="Goodbye Hack Club :(" author="@lachlanjc" />
+    <Article title="Hello BIGRED//HACKS!" author="@devanflores" />
+    <Article title="Goodbye BIGRED//HACKS :(" author="@devanflores" />
     {/*Try adding another article!*/}
     <Link href="/shopping">
       <a>Let’s go shopping</a>
