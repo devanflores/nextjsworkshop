@@ -78,7 +78,7 @@ export default () => <h1>Welcome!</h1>
 
 ### Making your first Next.js page
 
-Let’s try out that component we were using above:
+Let’s try replacing index.js with that component we were using above:
 
 ```js
 const Article = ({ title, author, preview }) => (
@@ -97,7 +97,13 @@ export default () => (
 )
 ```
 
-Hey, look at that! Try adding your own. Your site should immediately update.
+Hey, look at that we changed our site! But how do we view these changes? Open up a new terminal and run 
+
+ ```yarn dev```
+ 
+to start a server on your machine. Click on the link in terminal and check out your page!
+
+Try editing your page to include your name. Your site should immediately update.
 
 ### Linking to a new page
 
