@@ -11,7 +11,7 @@ This workshop requires the following dependencies:
 - **Visual Studio Code**
 - **[npm](https://nodejs.org/en/)**
 - **[Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**
-- **Access to github
+- **Access to github**
 
 
 ## Intro to React
