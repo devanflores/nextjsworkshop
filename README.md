@@ -1,6 +1,6 @@
 # Welcome to React with Next.js
 
-Hi there! This workshop is an introduction to [React.js](https://reactjs.org) using [Next.js](https://nextjs.org). It assumes you have some familiarity with HTML and JavaScript, as well as programming functions like functions, objects, arrays, and classes, but you should be able to follow along regardless. If you're having trouble, feel free to ask in the [Big Red Hacks Discord or in person]!
+Hi there! This workshop is an introduction to [React.js](https://reactjs.org) using [Next.js](https://nextjs.org). It assumes you have some familiarity with HTML and JavaScript, as well as programming functions like functions, objects, arrays, and classes, but you should be able to follow along regardless. If you're having trouble, feel free to ask in the Big Red Hacks Discord or in person!
 
 Source adapted from a Hack Club tutorial.
 
