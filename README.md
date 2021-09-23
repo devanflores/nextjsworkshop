@@ -97,11 +97,11 @@ export default () => (
 )
 ```
 
-Hey, look at that we changed our site! But how do we view these changes? Open up a new terminal and run 
+Hey, look at that we changed our site! But how do we view these changes? In a vscode terminal or command line window, run
 
  ```yarn dev```
  
-to start a server on your machine. Click on the link in terminal and check out your page!
+to start a local server on your machine. Click on the link in terminal and check out your page!
 
 Try editing your page to include your name. Your site should immediately update.
 
